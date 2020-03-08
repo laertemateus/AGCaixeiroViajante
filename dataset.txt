@@ -1,0 +1,31 @@
+15
+Nibelheim
+Rocket Town
+Wutai
+Bone Village
+City of the Ancients
+Icicle Inn
+Mideel
+Midgar
+Kalm
+Fort Condor
+Junon
+Costa del Sol
+North Corel
+Gongaga
+Cosmo Canyon
+0 156.858 683.913
+1 686.086 777.115
+2 497.455 291.613
+3 787.726 740.352
+4 147.250 166.935
+5 984.537 430.734
+6 840.366 660.293
+7 624.632 738.644
+8 266.992 939.781
+9 863.637 194.513
+10 335.918 373.958
+11 926.988 123.806
+12 434.005 144.649
+13 424.865 373.225
+14 654.787 773.079
