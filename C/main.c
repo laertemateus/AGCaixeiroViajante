@@ -2,10 +2,19 @@
 #include<stdlib.h>
 #include<string.h>
 #include "data.h"
+#include "ag.h"
 
 int main() {
     FILE *dataset = fopen("../dataset.txt","r");
-    int i, p;
+    int i, p, tamanho_populacao, geracoes;
+
+    Individuo **populacao;
+
+    printf("Tamanho da populacao: ");
+    scanf("%d", &tamanho_populacao);
+
+    printf("Total de geracoes: ");
+    scanf("%d", &geracoes);
 
     // Lê o arquivo de entrada
     fscanf(dataset,"%d", &qtde_cidades);
@@ -27,7 +36,14 @@ int main() {
         fscanf(dataset,"%f %f", &posicao[i][0], &posicao[i][1]);
     }
 
-    printf("NOD");
+    // Gera a populacao inicial
+    populacao = malloc(sizeof(Individuo *) * tamanho_populacao);
+
+    for(i=0;i<tamanho_populacao;i++) {
+        populacao[i] = gera_individuo();
+    }
+
+    printf("!DONE!\n");
 
     return 0;
 }
